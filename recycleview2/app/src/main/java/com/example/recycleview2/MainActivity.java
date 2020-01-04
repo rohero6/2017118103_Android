@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         FruitAdapter adapter = new FruitAdapter(fruitList);
         recyclerView.setAdapter(adapter);
 
-
     }
 
     public void initFruits(){
