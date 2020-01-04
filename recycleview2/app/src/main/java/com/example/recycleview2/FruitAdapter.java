@@ -34,6 +34,7 @@ public  class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder>
             fruitName = (TextView) view.findViewById(R.id.fruit_name);
         }
     }
+
     public FruitAdapter(List<Fruit> fruitList){
         mFruitList = fruitList;
     } //FruitAdapter构造方法
