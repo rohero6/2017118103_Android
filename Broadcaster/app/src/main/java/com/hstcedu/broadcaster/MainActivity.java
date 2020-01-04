@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent =new Intent();
-                
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse("tel:15992053725"));
                 startActivity(intent);
